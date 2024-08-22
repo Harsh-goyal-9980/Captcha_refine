@@ -59,7 +59,7 @@ const DrawingCanvas = ({ onFail, onSubmit }) => {
 
   const handleSubmit = () => {
     const canvas = canvasRef.current;
-    const dataUrl = canvas.toDataURL(); // Capture the drawing as an image (base64 string)
+    const dataUrl = canvas.toDataURL(); 
     onSubmit(dataUrl);
   };
 
